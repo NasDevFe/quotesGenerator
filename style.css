@@ -1,0 +1,72 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden; 
+  position: absolute;
+  background-image: url("https://wallpapercave.com/uwp/uwp1956864.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover ;
+  /*background-position: top;*/
+  z-index: -2;
+}
+
+h1{ 
+color: black;
+text-align: center;
+font-size: 4rem;
+font-weight: 600;
+font-style: italic;
+font-family: "Times New Roman" , sans-serif , serif;
+letter-spacing: 0.25rem;
+color: #121212;
+text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+            0px -4px 10px rgba(255,255,255,0.3);
+}
+
+.container{ 
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.center{  
+text-align: center;
+}
+
+.quoteText{ 
+  font-size: 2.5rem;
+  font-family:"Georgia", Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+button{ 
+  background: red;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 28px 48px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+button:hover{ 
+  background-color: green;
+}
