@@ -1,16 +1,10 @@
-body{
-  margin: 0px;
-  height: auto;
-}
-
-
-
-.bg-image{
+html,body{
   width: 100%;
   height: 100%;
   overflow-x: hidden;
   overflow-y: hidden; 
   position: absolute;
+  background-image: url("https://wallpapercave.com/uwp/uwp1956864.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -2;
@@ -29,13 +23,6 @@ text-shadow: 2px 7px 5px rgba(0,0,0,0.3),
             0px -4px 10px rgba(255,255,255,0.3);
 }
 
-.container{ 
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-}
-
 .quoteText{ 
   font-size: 1.50rem;
   font-family:"Georgia", Arial, sans-serif;
@@ -43,7 +30,6 @@ align-items: center;
   font-style: italic;
   text-align: center;
 }
-
 
 button{ 
   background: red;
@@ -70,3 +56,9 @@ button{
 button:hover{ 
   background-color: green;
 }
+
+.center{  
+text-align: center;
+}
+
+
