@@ -14,7 +14,7 @@ body {
 h1{ 
 color: black;
 text-align: center;
-font-size: 4rem;
+font-size: 3rem;
 font-weight: 600;
 font-style: italic;
 font-family: "Times New Roman" , sans-serif , serif;
@@ -38,7 +38,7 @@ text-align: center;
 }
 
 .quoteText{ 
-  font-size: 2.5rem;
+  font-size: 1.50rem;
   font-family:"Georgia", Arial, sans-serif;
   font-weight: 400;
   font-style: italic;
